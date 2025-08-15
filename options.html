@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manage URL Lists</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .list {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 4px;
+    }
+
+    .list input[type="text"] {
+      width: 100%;
+      padding: 6px;
+      margin-bottom: 6px;
+    }
+
+    .list textarea {
+      width: 100%;
+      height: 80px;
+      padding: 6px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 8px;
+      margin-top: 6px;
+    }
+
+    button {
+      padding: 6px 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Manage URL Lists</h1>
+  <div id="lists"></div>
+  <button id="addListBtn">Add New List</button>
+  <hr />
+  <button id="saveBtn">Save All</button>
+
+  <script src="options.js"></script>
+</body>
+</html> 

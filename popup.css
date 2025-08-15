@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px 14px;
+  width: 250px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+#lists button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 6px;
+  border: none;
+  background-color: #3b82f6;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#lists button:hover {
+  background-color: #2563eb;
+}
+
+.manage-link {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.manage-link a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.manage-link a:hover {
+  text-decoration: underline;
+} 
